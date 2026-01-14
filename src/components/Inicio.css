@@ -9,13 +9,13 @@
   text-align: left;
   padding-top: 8rem;
   padding-bottom: 10rem;
-
+ 
 }
 
 .tech{
   display: flex;
   flex-direction: row;
-
+  
 }
 
 .habilidades{
@@ -23,13 +23,13 @@
   flex-direction: row;
   padding-top: 40px;
   gap: 10rem;
-
+  
 }
 
 .titulo-hab{
   border-radius: 20px; /* Borde redondeado */
   border: 2px solid #3a5a80; /* Un borde sutil, opcional */
-  box-shadow: 0 0 20px rgba(187, 186, 184, 0.05);
+  box-shadow: 0 0 20px rgba(187, 186, 184, 0.05); 
   padding: 5px 10px;
   margin-bottom: 10px;
   background-color: #0d295e;
@@ -49,28 +49,6 @@
   font-size: 1em;
   font-weight: bold;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.hab-section {
-  border-left: 2px solid #3a5a80;
-  padding-left: 12px;
-}
-
-.hab-list {
-  margin: 4px 0 0 0;
-  padding-left: 18px;
-  list-style: disc;
-  font-weight: normal;
-  line-height: 1.4;
-}
-
-.hab-detalle {
-  margin: 4px 0 0 0;
-  font-weight: normal;
-  line-height: 1.5;
 }
 
 h5{
@@ -81,8 +59,8 @@ h5{
 
 h1{
   margin: 0px;
-
-
+ 
+  
 }
 
 .perfil {
@@ -112,7 +90,7 @@ h1{
   justify-content: center;
   border-radius: 20px; /* Borde redondeado */
   border: 2px solid #1a4daa; /* Un borde sutil, opcional */
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05); 
    padding: 1rem;
 }
 
@@ -127,7 +105,6 @@ h1{
   font-size: 1.2em;
   font-family: 'Lato', sans-serif;
   margin-top: 0px;
-  line-height: 1.6;
 }
 
 /* Responsive para tablets */
@@ -155,14 +132,6 @@ h1{
   .habilidades {
     flex-direction: column;
     gap: 2rem; /* puedes ajustar el espacio vertical */
-  }
-
-  .hab-section {
-    border-left: none;
-    border-top: 2px solid #3a5a80;
-    padding-left: 0;
-    padding-top: 10px;
-    margin-top: 10px;
   }
 }
 
