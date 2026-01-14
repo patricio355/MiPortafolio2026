@@ -10,62 +10,55 @@ function App() {
   const proyectos = [
     {
       titulo: 'Liga de Futbol',
-      descripcion:
-        'Aplicación para administrar una liga de fútbol con frontend en React, backend en Node.js y base de datos MySQL.',
+      descripcion: 'Creé una app que ayuda a la administración de una liga de futbol usando React,NodeJs y la base de datos con MySql.',
       link: 'https://github.com/patricio355/Liga-de-futbol.git',
       imagen: '/futbol.jpg',
     },
     {
       titulo: 'PelisRat',
-      descripcion:
-        'Buscador de películas con detalles y tráilers; fue mi primera integración con APIs usando Angular y Postman.',
+      descripcion: 'Esta es una app que sirve para ver detalles de peliculas y trailers, fue mi primera interacción con APIS, use Angular y me ayude de PostMan,',
       link: 'https://github.com/patricio355/hola.git',
       imagen: '/pelis.jpg',
     },
     {
       titulo: 'Mobirise',
-      descripcion: 'Sitio estático creado como práctica para explorar las posibilidades de Mobirise.',
+      descripcion: 'Este sitio lo realicé como práctica para conocer Mobirise, una buena experiencia creando páginas estáticas con la herramienta,',
       link: 'https://github.com/patricio355/Mobirise2024.git',
       imagen: '/mobirise.jpg',
     },
     {
       titulo: 'Reserva de mesas',
-      descripcion:
-        'Administrador de reservas para un restaurante: frontend en Angular, backend con Node.js y base de datos MongoDB.',
+      descripcion: 'App que se centra en la administración de reservas en un restaurante, para su creación elegí: frontend (Angular), backend (Nodejs)  con BD Mongo.',
       link: 'https://github.com/patricio355/Reserva-de-mesas.git',
       imagen: '/mesas.jpg',
     },
     {
       titulo: 'Mercado Liebre DH',
-      descripcion:
-        'Landing page inspirada en Mercado Libre realizada en HTML y CSS como parte de un curso de desarrollo web.',
+      descripcion: 'Página realizada para un curso de Desarrollo Web, mis primeras prácticas usando HTML,CSS emulando ML.',
       link: 'https://github.com/patricio355/mercadoLiebreDH.git',
       imagen: '/ml.jpg',
     },
     {
       titulo: 'Tienda de Ropa',
-      descripcion:
-        'Aplicación para la gestión de una tienda de ropa construida con EJS, CSS y JavaScript; mi primera experiencia con formularios.',
+      descripcion: 'App para administración de tienda de ropa, usando EJS,CSS,JAVASCRIPT. Mi primera interacción con formularios',
       link: 'https://github.com/patricio355/grupo_7_TheChill.git',
       imagen: '/tienda.jpg',
     },
     {
       titulo: 'Dashboard de Tienda de ropa',
-      descripcion:
-        'Dashboard en React que me permitió profundizar en el ecosistema y las ventajas del framework.',
+      descripcion: 'Mi primer Dashboard usando React , me ayudó a conocer mas a fondo el mundo de React y todas sus ventajas',
       link: 'https://github.com/patricio355/React-Thechill.git',
       imagen: '/dashboard.jpg',
     },
     {
       titulo: 'Ticketera',
-      descripcion: 'Administrador de tickets para estadios, desarrollado en Angular.',
+      descripcion: 'App para administración de compra de tickets para estadios, mi primera experiencia usando Angular',
       link: 'https://github.com/patricio355/Ticketera.git',
       imagen: '/ticketera.jpg',
     },
     {
       titulo: 'Candidatos',
-      descripcion:
-        'ABM de postulantes a presidente que hice en equipo; fue mi primer proyecto colaborativo.',
+      descripcion: 'App para administración de postulantes a presidente, aprendí como crear un ABM en mi primer proyecto trabajando en grupo',
       link: 'https://github.com/CarlosCommit/TpEvaluativo',
       imagen: '/candidatos.jpg',
     },
@@ -80,7 +73,7 @@ function App() {
         </section>
         <section id="proyectos">
           <h2 className="proyectos-titulo">Mis Proyectos</h2>
-          <div className="card-container">
+          <div className='card-container'>
             {proyectos.map((proyecto, index) => (
               <Proyecto
                 key={index}
@@ -92,10 +85,10 @@ function App() {
             ))}
           </div>
         </section>
-        <section id="sobre-mi">
+        <section id='sobre-mi'>
           <SobreMi />
         </section>
-        <section id="contacto">
+        <section id='contacto'>
           <Contacto />
         </section>
       </div>
