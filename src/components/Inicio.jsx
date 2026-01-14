@@ -1,23 +1,23 @@
 import React from 'react';
 import './Inicio.css';
+
 const Inicio = () => {
-
-
   return (
     <div className="inicio">
       <div className="perfil">
         <div className="foto-container">
-          <img src="/foto.jpg" alt="Tu nombre" className="foto" />
+          <img src="/foto.jpg" alt="Alejandro Patricio Quiroga" className="foto" />
         </div>
         <div className="info">
           <h1 className="nombre">ALEJANDRO PATRICIO QUIROGA</h1>
-          <h4>Estudiante avanzado Analista Programador universitario</h4>
+          <h4>Analista Programador Universitario</h4>
           <p className="descripcion">
-  Me apasiona la programación, con un mayor enfoque en el desarrollo frontend, aunque también cuento con habilidades para crear backends. Busco superarme cada día en el desarrollo de aplicaciones utilizando diversas tecnologías. Me destaco por mi capacidad de trabajo en equipo, mi adaptabilidad a distintos paradigmas y mi enfoque lógico para diseñar soluciones eficientes y funcionales.
-</p>
- </div>
-
-
+            Analista Programador Universitario egresado de la Facultad de Ingeniería de Jujuy. 
+            Poseo una fuerte especialización en el desarrollo Backend utilizando Java y Spring Boot. 
+            Me destaco por mi capacidad para analizar, diseñar y desarrollar software escalable aplicando 
+            metodologías ágiles como Scrum y garantizando la seguridad mediante estándares como JWT y Spring Security.
+          </p>
+        </div>
       </div>
 
       <div className="habilidades">
@@ -29,44 +29,42 @@ const Inicio = () => {
             <h5> • Lenguajes de Programación:</h5>
             Java, JavaScript, C++.
             <h5>• Manejo de base de datos:</h5>
-            MySQL, PosgrestSQL, MongoDB.
+            MySQL (SQL), PostgreSQL, MongoDB.
             <h5> • Desarrollo Web:</h5>
             HTML, CSS, Tailwind CSS.
-            <h5>• Frameworks:</h5>
-            React.js (con Vite), AngularJS, Express (Node.js).
-            <h5>• DevOps y CI/CD </h5>
-            Docker.
-            <h5>• Control de versiones</h5>
+            <h5>• Frameworks y Librerías:</h5>
+            Spring Boot, Spring Security, Spring Data JPA, React.js, Express.js.
+            <h5>• DevOps e Infraestructura:</h5>
+            Docker, Railway, Vercel.
+            <h5>• Control de versiones:</h5>
             GitHub.
           </div>
-
         </div>
+
         <div className="carta-hab">
           <div className="titulo-hab">
             <h1>Habilidades blandas</h1>
           </div>
           <div className="hab-t">
-
             <h5>• Trabajo en equipo:</h5>
-            Buena colaboración con compañeros.
+            Experiencia en entornos colaborativos bajo metodología Scrum.
 
             <h5>• Resolución de problemas:</h5>
-            Busco soluciones eficientes y creativas.
+            Fuerte enfoque lógico para diseñar soluciones eficientes y funcionales.
 
             <h5>• Adaptabilidad:</h5>
-            Según las necesidades del proyecto.
+            Capacidad de respuesta ante cambios en los requerimientos del proyecto.
 
             <h5>• Gestión del tiempo:</h5>
-            En entornos de desarrollo Ágil.
+            Planificación efectiva mediante Sprints y revisiones de código.
 
             <h5>• Empatía:</h5>
-            Tanto con compañeros como con usuarios.
+            Orientación hacia la experiencia del usuario final y buena relación con pares.
 
             <h5>• Comunicación efectiva:</h5>
-            Buena comunicación en conceptos tecnicos
+            Claridad en la transmisión de conceptos técnicos y documentación.
           </div>
         </div>
-
       </div>
     </div>
   );

@@ -10,13 +10,13 @@ function App() {
   const proyectos = [
     {
       titulo: 'Liga de Futbol',
-      descripcion: 'Creé una app que ayuda a la administración de una liga de futbol usando React,NodeJs y la base de datos con MySql.',
-      link: 'https://github.com/patricio355/Liga-de-futbol.git',
-      imagen: '/futbol.jpg',
+      descripcion: 'Creé una app que ayuda a la administración de torneos usando Java, Spring Boot y la base de datos con MySql. Para el Front use React con TailwindCSS',
+      link: 'https://github.com/patricio355/Liga-Juje-a.git',
+      imagen: '/futbol.png',
     },
     {
       titulo: 'PelisRat',
-      descripcion: 'Esta es una app que sirve para ver detalles de peliculas y trailers, fue mi primera interacción con APIS, use Angular y me ayude de PostMan,',
+      descripcion: 'Esta es una app que sirve para ver detalles de peliculas y trailers, fue mi primera interacción con APIS, use Angular y me ayudé de PostMan,',
       link: 'https://github.com/patricio355/hola.git',
       imagen: '/pelis.jpg',
     },
