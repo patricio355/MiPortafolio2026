@@ -15,20 +15,18 @@ const SobreMi = () => {
 
         <div className="sobre-mi-cuadro">
 
-        <p>
-  Soy estudiante avanzado de la carrera de Analista Programador Universitario en la Facultad de Ingeniería de Jujuy,
-  con solo cinco materias pendientes para completar mi formación.
+ <p>
+  Soy <strong>Analista Programador Universitario</strong> de la Facultad de Ingeniería de Jujuy. Mi especialización se centra en el desarrollo <strong>Backend utilizando Java y Spring Boot</strong>, con capacidad para diseñar arquitecturas escalables y seguras.
 </p>
 <p>
-  Me apasiona el desarrollo de software y he adquirido experiencia trabajando en proyectos personales que abarcan desde la creación de aplicaciones web hasta la gestión de bases de datos. He trabajado con metodologías ágiles como Scrum en cursos de formación y prácticas en la facultad.
+  Cuento con experiencia técnica liderando proyectos de gran alcance, como una plataforma provincial de gestión deportiva que administra datos de más de 7,000 equipos. He trabajado bajo metodologías ágiles (<strong>Scrum</strong>), garantizando la calidad del código y la eficiencia en la entrega.
 </p>
 <p>
-  He desarrollado proyectos utilizando tecnologías como React, Angular, Node.js, Spring, Docker, entre otras, tanto de manera individual como en equipo. Tengo un fuerte enfoque en la calidad del código, el trabajo colaborativo y la mejora continua. Durante mis años en la facultad, pude adquirir los conocimientos necesarios para abordar proyectos tanto en el área de desarrollo como en el área de análisis.
+  Mi stack principal incluye <strong>Spring Security, Spring Data JPA, MySQL</strong>, complementado con el desarrollo de interfaces dinámicas en <strong>React y Tailwind CSS</strong>. Poseo un fuerte criterio analítico para abordar desafíos complejos, desde el modelado de datos hasta el despliegue en la nube.
 </p>
 <p>
-  Estoy en constante aprendizaje, mejorando mis habilidades técnicas y de gestión, con el objetivo de contribuir de manera significativa a proyectos tecnológicos.
+  Me enfoco en la mejora continua y en la implementación de estándares de industria, con el objetivo de aportar soluciones tecnológicas robustas que generen un impacto real en el negocio.
 </p>
-
 
         
           
