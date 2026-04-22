@@ -17,7 +17,7 @@ const handleSubmit = (e) => {
   )
   .then((result) => {
       console.log('Mensaje enviado', result.text);
-      alert('Mensaje enviado con éxito!');
+      alert('Mensaje enviado con éxito.');
       setNombre('');
       setMensaje('');
   }, (error) => {
@@ -30,6 +30,7 @@ const handleSubmit = (e) => {
     <div className='contacto-container'>
       <div className='contacto-titulo'>
         <h1>Contacto</h1>
+        <p>Si tienes una propuesta o quieres conversar sobre un proyecto, estaré encantado de leerte.</p>
       </div>
       <div className="social-links">
                   <a href="https://github.com/patricio355" target="_blank" rel="noopener noreferrer">
@@ -54,6 +55,7 @@ const handleSubmit = (e) => {
               type='text'
               id='nombre'
               name='nombre'
+              placeholder='Tu nombre'
               value={nombre}
               onChange={(e) => setNombre(e.target.value)}
               
@@ -65,6 +67,7 @@ const handleSubmit = (e) => {
             <textarea
               id='mensaje'
                name='mensaje'
+              placeholder='Cuéntame sobre tu idea o necesidad'
               value={mensaje}
               onChange={(e) => setMensaje(e.target.value)}
              

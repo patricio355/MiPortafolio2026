@@ -9,13 +9,12 @@ const Inicio = () => {
           <img src="/foto.jpg" alt="Alejandro Patricio Quiroga" className="foto" />
         </div>
         <div className="info">
-          <h1 className="nombre">ALEJANDRO PATRICIO QUIROGA</h1>
-          <h4>Analista Programador Universitario</h4>
+          <span className="badge-rol">Backend Developer</span>
+          <h1 className="nombre">Alejandro Patricio Quiroga</h1>
+          <h4 className="subtitulo">Analista Programador Universitario</h4>
           <p className="descripcion">
-            Analista Programador Universitario egresado de la Facultad de Ingeniería de Jujuy. 
-            Poseo una fuerte especialización en el desarrollo Backend utilizando Java y Spring Boot. 
-            Me destaco por mi capacidad para analizar, diseñar y desarrollar software escalable aplicando 
-            metodologías ágiles como Scrum y garantizando la seguridad mediante estándares como JWT y Spring Security.
+            Profesional egresado de la Facultad de Ingeniería de Jujuy, especializado en desarrollo backend con Java y Spring Boot.
+            Construyo soluciones escalables, seguras y mantenibles, aplicando metodologías ágiles como Scrum y estándares como JWT y Spring Security.
           </p>
         </div>
       </div>
@@ -23,46 +22,29 @@ const Inicio = () => {
       <div className="habilidades">
         <div className="carta-hab">
           <div className="titulo-hab">
-            <h1>Habilidades técnicas</h1>
+            <h2>Habilidades técnicas</h2>
           </div>
-          <div className='hab-t'>
-            <h5> • Lenguajes de Programación:</h5>
-            Java, JavaScript, C++.
-            <h5>• Manejo de base de datos:</h5>
-            MySQL (SQL), PostgreSQL, MongoDB.
-            <h5> • Desarrollo Web:</h5>
-            HTML, CSS, Tailwind CSS.
-            <h5>• Frameworks y Librerías:</h5>
-            Spring Boot, Spring Security, Spring Data JPA, React.js, Express.js.
-            <h5>• DevOps e Infraestructura:</h5>
-            Docker, Railway, Vercel.
-            <h5>• Control de versiones:</h5>
-            GitHub.
+          <div className="hab-t">
+            <p><strong>Lenguajes:</strong> Java, JavaScript, C++.</p>
+            <p><strong>Bases de datos:</strong> MySQL, PostgreSQL, MongoDB.</p>
+            <p><strong>Desarrollo web:</strong> HTML, CSS, Tailwind CSS.</p>
+            <p><strong>Frameworks y librerías:</strong> Spring Boot, Spring Security, Spring Data JPA, React, Express.</p>
+            <p><strong>DevOps e infraestructura:</strong> Docker, Railway, Vercel.</p>
+            <p><strong>Control de versiones:</strong> Git y GitHub.</p>
           </div>
         </div>
 
         <div className="carta-hab">
           <div className="titulo-hab">
-            <h1>Habilidades blandas</h1>
+            <h2>Habilidades blandas</h2>
           </div>
           <div className="hab-t">
-            <h5>• Trabajo en equipo:</h5>
-            Experiencia en entornos colaborativos bajo metodología Scrum.
-
-            <h5>• Resolución de problemas:</h5>
-            Fuerte enfoque lógico para diseñar soluciones eficientes y funcionales.
-
-            <h5>• Adaptabilidad:</h5>
-            Capacidad de respuesta ante cambios en los requerimientos del proyecto.
-
-            <h5>• Gestión del tiempo:</h5>
-            Planificación efectiva mediante Sprints y revisiones de código.
-
-            <h5>• Empatía:</h5>
-            Orientación hacia la experiencia del usuario final y buena relación con pares.
-
-            <h5>• Comunicación efectiva:</h5>
-            Claridad en la transmisión de conceptos técnicos y documentación.
+            <p><strong>Trabajo en equipo:</strong> experiencia en entornos colaborativos bajo Scrum.</p>
+            <p><strong>Resolución de problemas:</strong> enfoque lógico para soluciones eficientes y funcionales.</p>
+            <p><strong>Adaptabilidad:</strong> respuesta rápida ante cambios de requerimientos.</p>
+            <p><strong>Gestión del tiempo:</strong> planificación efectiva por sprints y revisiones de código.</p>
+            <p><strong>Empatía:</strong> orientación a la experiencia del usuario final.</p>
+            <p><strong>Comunicación:</strong> claridad para transmitir conceptos técnicos y documentar procesos.</p>
           </div>
         </div>
       </div>

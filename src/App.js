@@ -10,55 +10,55 @@ function App() {
   const proyectos = [
     {
       titulo: 'Liga de Futbol',
-      descripcion: 'Creé una app que ayuda a la administración de torneos usando Java, Spring Boot y la base de datos con MySql. Para el Front use React con TailwindCSS',
+      descripcion: 'Aplicación para la administración de torneos deportivos con Java, Spring Boot y MySQL. El frontend fue desarrollado con React y Tailwind CSS.',
       link: 'https://github.com/patricio355/Liga-Juje-a.git',
       imagen: '/futbol.png',
     },
     {
       titulo: 'PelisRat',
-      descripcion: 'Esta es una app que sirve para ver detalles de peliculas y trailers, fue mi primera interacción con APIS, use Angular y me ayudé de PostMan,',
+      descripcion: 'Aplicación para consultar detalles de películas y tráilers. Fue mi primera integración con APIs usando Angular y Postman.',
       link: 'https://github.com/patricio355/hola.git',
       imagen: '/pelis.jpg',
     },
     {
       titulo: 'Mobirise',
-      descripcion: 'Este sitio lo realicé como práctica para conocer Mobirise, una buena experiencia creando páginas estáticas con la herramienta,',
+      descripcion: 'Sitio realizado como práctica para explorar Mobirise y fortalecer el desarrollo de páginas estáticas.',
       link: 'https://github.com/patricio355/Mobirise2024.git',
       imagen: '/mobirise.jpg',
     },
     {
       titulo: 'Reserva de mesas',
-      descripcion: 'App que se centra en la administración de reservas en un restaurante, para su creación elegí: frontend (Angular), backend (Nodejs)  con BD Mongo.',
+      descripcion: 'Aplicación centrada en la gestión de reservas para restaurantes, con frontend en Angular y backend en Node.js con MongoDB.',
       link: 'https://github.com/patricio355/Reserva-de-mesas.git',
       imagen: '/mesas.jpg',
     },
     {
       titulo: 'Mercado Liebre DH',
-      descripcion: 'Página realizada para un curso de Desarrollo Web, mis primeras prácticas usando HTML,CSS emulando ML.',
+      descripcion: 'Proyecto académico de desarrollo web: primeras prácticas con HTML y CSS, emulando una experiencia de e-commerce.',
       link: 'https://github.com/patricio355/mercadoLiebreDH.git',
       imagen: '/ml.jpg',
     },
     {
       titulo: 'Tienda de Ropa',
-      descripcion: 'App para administración de tienda de ropa, usando EJS,CSS,JAVASCRIPT. Mi primera interacción con formularios',
+      descripcion: 'Aplicación para la administración de una tienda de ropa usando EJS, CSS y JavaScript. Mi primer proyecto fuerte con formularios.',
       link: 'https://github.com/patricio355/grupo_7_TheChill.git',
       imagen: '/tienda.jpg',
     },
     {
       titulo: 'Dashboard de Tienda de ropa',
-      descripcion: 'Mi primer Dashboard usando React , me ayudó a conocer mas a fondo el mundo de React y todas sus ventajas',
+      descripcion: 'Mi primer dashboard en React, clave para profundizar en el ecosistema y las ventajas de una UI basada en componentes.',
       link: 'https://github.com/patricio355/React-Thechill.git',
       imagen: '/dashboard.jpg',
     },
     {
       titulo: 'Ticketera',
-      descripcion: 'App para administración de compra de tickets para estadios, mi primera experiencia usando Angular',
+      descripcion: 'Aplicación para la gestión de compra de entradas para estadios. Fue mi primera experiencia completa usando Angular.',
       link: 'https://github.com/patricio355/Ticketera.git',
       imagen: '/ticketera.jpg',
     },
     {
       titulo: 'Candidatos',
-      descripcion: 'App para administración de postulantes a presidente, aprendí como crear un ABM en mi primer proyecto trabajando en grupo',
+      descripcion: 'Aplicación para administrar postulantes en un proceso electoral. Allí aprendí a construir un ABM en trabajo colaborativo.',
       link: 'https://github.com/CarlosCommit/TpEvaluativo',
       imagen: '/candidatos.jpg',
     },
@@ -71,9 +71,10 @@ function App() {
         <section id="perfil">
           <Inicio />
         </section>
-        <section id="proyectos">
+        <section id="proyectos" className="section-block">
           <h2 className="proyectos-titulo">Mis Proyectos</h2>
-          <div className='card-container'>
+          <p className="section-copy">Una selección de trabajos donde combiné backend, frontend y despliegues reales.</p>
+          <div className="card-container">
             {proyectos.map((proyecto, index) => (
               <Proyecto
                 key={index}
@@ -81,14 +82,15 @@ function App() {
                 descripcion={proyecto.descripcion}
                 link={proyecto.link}
                 imagen={proyecto.imagen}
+                delay={index}
               />
             ))}
           </div>
         </section>
-        <section id='sobre-mi'>
+        <section id="sobre-mi" className="section-block">
           <SobreMi />
         </section>
-        <section id='contacto'>
+        <section id="contacto" className="section-block">
           <Contacto />
         </section>
       </div>

@@ -1,77 +1,67 @@
 .card {
-    background-color: #282c34;
-    color: white;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-    display: flex;
+  background: linear-gradient(170deg, rgba(19, 37, 64, 0.95), rgba(11, 24, 42, 0.95));
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 0.85rem;
+  text-align: left;
+  border: 1px solid rgba(123, 161, 255, 0.25);
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.28);
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Esto manda el botón al fondo */
-  /* Para que todas las cards midan lo mismo */
-  }
+  justify-content: space-between;
+  opacity: 0;
+  transform: translateY(18px);
+  animation: projectIn 0.55s ease-out forwards;
+}
 
-  .card img{
-    width: 100%;
-    aspect-ratio: 16/9;
-    border-radius: 10px;
-  }
-  
-  .card a{
-    margin-top: auto; /* Se empuja hacia abajo */
-    display: inline-block;
-    padding: 10px 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: #274586;
-    color: antiquewhite;
-    text-decoration: none; /* Quita el subrayado */
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-  }
+.proyecto-imagen {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
 
-  .card a:hover {
-    background-color: #3459a1;
-    transform: scale(1.05);
-  }
+.proyecto-titulo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.25rem;
+  margin: 0 0 0.8rem;
+  color: #e6efff;
+}
 
-  .card:hover {
-    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
-  }
-  
-  .btn-link {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #0d295e;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  
-  .btn-link:hover {
-    background-color: #020b35; /* Color al pasar el ratón */
-  }
-  
-  h3{
-    color: #cdddff;
-    font-family: 'Roboto Slab', serif;
-  font-weight: bold;
-  margin: 1;
-  font-size: 30px;
-  }
+.proyecto-descripcion {
+  margin: 0.8rem 0 1.1rem;
+  color: var(--text-300);
+  line-height: 1.55;
+}
 
-  p{
-    font-family: 'Roboto Slab', serif;
-  font-weight:lighter;
-  margin: 1;
+.card a {
+  margin-top: auto;
+  display: inline-flex;
+  width: fit-content;
+  padding: 0.55rem 0.95rem;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #08111f;
+  background: linear-gradient(130deg, #7fb4ff, #b4d4ff);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(59, 116, 217, 0.4);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  transition: transform 0.2s ease;
+}
+
+@keyframes projectIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
 

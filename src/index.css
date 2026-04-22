@@ -1,16 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url('../public/fondo3.jpg'); /* Asegúrate de que la ruta sea correcta */
-/* Hace que la imagen cubra toda la pantalla */
-  background-position: center; /* Centra la imagen */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  --bg-900: #08111f;
+  --bg-800: #0e1a2f;
+  --surface-700: #132540;
+  --surface-600: #1a2f50;
+  --primary-500: #2f6df6;
+  --primary-400: #4b84ff;
+  --accent-400: #1fc5ff;
+  --warm-400: #f2b15e;
+  --text-100: #f3f7ff;
+  --text-300: #c6d3e8;
+  --border-500: rgba(118, 157, 255, 0.35);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-100);
+  background: radial-gradient(circle at 15% 10%, #1a335c 0%, transparent 35%),
+    radial-gradient(circle at 90% 85%, #173866 0%, transparent 35%),
+    linear-gradient(140deg, var(--bg-900) 0%, var(--bg-800) 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
 }

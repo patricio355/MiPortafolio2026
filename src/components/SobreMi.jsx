@@ -9,68 +9,68 @@ import { FaGithub, FaNodeJs, FaDocker, FaGitAlt, FaLinux, FaWindows } from 'reac
 import { SiPostman, SiSpring, SiEclipseide } from 'react-icons/si';
 const SobreMi = () => {
   return (
-    <div>
-      <h2>Sobre mí</h2>
+    <div className="sobre-mi-wrapper">
+      <h2 className="sobre-mi-titulo">Sobre mí</h2>
       <section className="sobre-mi">
 
         <div className="sobre-mi-cuadro">
 
  <p>
-  Soy <strong>Analista Programador Universitario</strong> de la Facultad de Ingeniería de Jujuy. Mi especialización se centra en el desarrollo <strong>Backend utilizando Java y Spring Boot</strong>, con capacidad para diseñar arquitecturas escalables y seguras.
+  Soy <strong>Analista Programador Universitario</strong> graduado en la Facultad de Ingeniería de Jujuy. Me especializo en desarrollo <strong>backend con Java y Spring Boot</strong>, diseñando arquitecturas seguras y escalables.
 </p>
 <p>
-  Cuento con experiencia técnica liderando proyectos de gran alcance, como una plataforma provincial de gestión deportiva que administra datos de más de 7,000 equipos. He trabajado bajo metodologías ágiles (<strong>Scrum</strong>), garantizando la calidad del código y la eficiencia en la entrega.
+  Cuento con experiencia en proyectos de alto impacto, como una plataforma provincial de gestión deportiva que administra datos de más de 7.000 equipos. Trabajo bajo metodologías ágiles (<strong>Scrum</strong>) con foco en calidad de código y entregas eficientes.
 </p>
 <p>
-  Mi stack principal incluye <strong>Spring Security, Spring Data JPA, MySQL</strong>, complementado con el desarrollo de interfaces dinámicas en <strong>React y Tailwind CSS</strong>. Poseo un fuerte criterio analítico para abordar desafíos complejos, desde el modelado de datos hasta el despliegue en la nube.
+  Mi stack principal incluye <strong>Spring Security, Spring Data JPA y MySQL</strong>, complementado con interfaces dinámicas en <strong>React y Tailwind CSS</strong>. Abordo desafíos complejos desde el modelado de datos hasta el despliegue en la nube.
 </p>
 <p>
-  Me enfoco en la mejora continua y en la implementación de estándares de industria, con el objetivo de aportar soluciones tecnológicas robustas que generen un impacto real en el negocio.
+  Me enfoco en mejora continua y estándares de industria para crear soluciones tecnológicas robustas, mantenibles y con impacto real en el negocio.
 </p>
 
         
           
         </div>
         <div className="tecnol">
-          <h1>Tecnologías</h1>
+          <h3>Tecnologías</h3>
           <div className="tecnol-icons">
             {/* Lenguajes de Programación */}
-            <TechCard IconComponent={FaJava} color="#007396" />
-            <TechCard IconComponent={SiCplusplus} color="#00599C" />
-            <TechCard IconComponent={FaJs} color="#F7DF1E" />
+            <TechCard IconComponent={FaJava} color="#2d8ec7" />
+            <TechCard IconComponent={SiCplusplus} color="#4f87d5" />
+            <TechCard IconComponent={FaJs} color="#f6d14f" />
 
             {/* Base de datos y React */}
-            <TechCard IconComponent={FaReact} color="#61DAFB" />
-            <TechCard IconComponent={SiMysql} color="#4479A1" />
-            <TechCard IconComponent={SiPostgresql} color="#336791" />
-            <TechCard IconComponent={SiMongodb} color="#47A248" />
+            <TechCard IconComponent={FaReact} color="#59caec" />
+            <TechCard IconComponent={SiMysql} color="#5f91bc" />
+            <TechCard IconComponent={SiPostgresql} color="#7ea0c7" />
+            <TechCard IconComponent={SiMongodb} color="#65b47d" />
 
             {/* Desarrollo Web */}
-            <TechCard IconComponent={FaHtml5} color="#E34F26" />
-            <TechCard IconComponent={FaCss3Alt} color="#1572B6" />
+            <TechCard IconComponent={FaHtml5} color="#e08b4f" />
+            <TechCard IconComponent={FaCss3Alt} color="#66aee4" />
 
             {/* Frameworks */}
            
-            <TechCard IconComponent={FaAngular} color="#DD0031" />
-            <TechCard IconComponent={SiExpress} color="#28A745" />
+            <TechCard IconComponent={FaAngular} color="#d96b82" />
+            <TechCard IconComponent={SiExpress} color="#8bc499" />
 
             {/* Bibliotecas */}
-            <TechCard IconComponent={FaBootstrap} color="#7952B3" />
-            <TechCard IconComponent={SiTailwindcss} color="#06B6D4" />
+            <TechCard IconComponent={FaBootstrap} color="#9c8bc6" />
+            <TechCard IconComponent={SiTailwindcss} color="#66cadf" />
 
 
-            <TechCard IconComponent={FaNodeJs} color="#339933" />
-            <TechCard IconComponent={FaDocker} color="#2496ED" />
-            <TechCard IconComponent={SiPrometheus} color="#E6522C" />
-            <TechCard IconComponent={SiGrafana} color="#F46800" />
-            <TechCard IconComponent={FaGitAlt} color="#F05032" />
-            <TechCard IconComponent={FaGithub} color="#000000" />
-            <TechCard IconComponent={FaLinux} color="#FCC624" />
-            <TechCard IconComponent={FaWindows} color="#0078D6" />
-            <TechCard IconComponent={SiOpenai} color="#412991" />
-            <TechCard IconComponent={SiPostman} color="#FF6C37" />  {/* Postman */}
-            <TechCard IconComponent={SiSpring} color="#6DB33F" />  {/* Spring */}
-            <TechCard IconComponent={SiEclipseide} color="#2C2255" />  {/* STS / Modelio (Eclipse) */}
+            <TechCard IconComponent={FaNodeJs} color="#69b86a" />
+            <TechCard IconComponent={FaDocker} color="#68b8ef" />
+            <TechCard IconComponent={SiPrometheus} color="#e28566" />
+            <TechCard IconComponent={SiGrafana} color="#f0aa63" />
+            <TechCard IconComponent={FaGitAlt} color="#ef856e" />
+            <TechCard IconComponent={FaGithub} color="#d4deef" />
+            <TechCard IconComponent={FaLinux} color="#ffd86b" />
+            <TechCard IconComponent={FaWindows} color="#6bb0e0" />
+            <TechCard IconComponent={SiOpenai} color="#99a5d9" />
+            <TechCard IconComponent={SiPostman} color="#f09a72" />
+            <TechCard IconComponent={SiSpring} color="#a4cf81" />
+            <TechCard IconComponent={SiEclipseide} color="#8c85c2" />
 
           </div>
         </div>

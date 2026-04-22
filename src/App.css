@@ -1,57 +1,53 @@
-
-.card-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
+.App {
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-
-
-/* Establecer un contenedor con márgenes laterales */
 .container {
-  max-width: 1200px; /* Ajusta este valor para el ancho máximo que prefieras */
-  margin: 0 auto; /* Márgenes automáticos para centrar */
-  padding: 0 20px; /* Espacio interno en los lados */
-  box-sizing: border-box; /* Asegura que el padding se incluya dentro del ancho */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.2rem 4rem;
 }
 
-/* Ajustar el body para evitar que ocupe todo el ancho */
-body {
-  background-color: #000; /* Fondo negro */
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif;
-  box-sizing: border-box; /* Para que el padding no altere el ancho */
-}
-
-/* Asegura que todas las secciones tengan los márgenes y no se expandan al 100% */
 section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px; /* Espacio interno en los lados */
-  box-sizing: border-box;
+  scroll-margin-top: 7rem;
 }
 
-/* Estilo para el header si quieres limitar también su ancho */
-.App-header {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
+.section-block {
+  margin-top: 4rem;
 }
 
-.proyectos-titulo{
+.proyectos-titulo {
   text-align: center;
-  font-family: 'Roboto Slab', serif;
-  font-weight: bold;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2rem, 4vw, 2.7rem);
   margin: 0;
-  font-size: 40px;
-  padding-top: 100px;
+  color: var(--text-100);
+  letter-spacing: 0.02em;
 }
 
-html {
-  scroll-behavior: smooth;
+.section-copy {
+  max-width: 660px;
+  margin: 0.9rem auto 2rem;
+  text-align: center;
+  color: var(--text-300);
+  line-height: 1.5;
+  font-size: 1.05rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.1rem;
+  align-items: stretch;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 0.9rem 3rem;
+  }
+
+  .section-block {
+    margin-top: 2.8rem;
+  }
 }
